@@ -1,11 +1,13 @@
 # SimpleFormAngular
 
-TODO: Write a gem description
+This micro-gem allows you to add AngilarJS ng-attributes to Simple Form inputs.
 
 ## Installation
 
 Add this line to your application's Gemfile:
-
+    
+    gem 'angularjs-rails'
+    gem 'simple_form'
     gem 'simple_form_angular'
 
 And then execute:
@@ -18,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+  simple_form_for Entry.new, ng: { controller: 'EntriesController' } do |f|
+    f.input :title, ng: { model: 'newEntry.title' }
+    f.input :description, ng: { model: 'newEntry.description' }
+  end
+```
+
+## TODO
+Write some specs.
 
 ## Contributing
 
