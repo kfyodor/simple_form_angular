@@ -1,6 +1,6 @@
 # SimpleFormAngular
 
-This micro-gem allows you to add AngilarJS ng-attributes to Simple Form inputs.
+This micro-gem allows you to add AngilarJS ng-attributes to Simple Form inputs in your Rails app.
 
 ## Installation
 
