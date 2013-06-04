@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
   simple_form_for Entry.new, ng: { controller: 'EntriesController' } do |f|
     f.input :title, ng: { model: 'newEntry.title' }
     f.input :description, ng: { model: 'newEntry.description' }
